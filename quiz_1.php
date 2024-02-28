@@ -18,7 +18,7 @@ function generate($user_id, $conn){
 
             // Check count token
             if($checkJson != null){
-                if(count($checkJson) == 3){
+                if(count($checkJson) == 10){
                     array_splice($checkJson, 0, 1);
                 }
             }
